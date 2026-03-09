@@ -81,7 +81,7 @@ window.addEventListener("keydown",e=>{
 
   if(player.row===ROWS-1 && player.col===COLS-1){
     hasWon=true;
-    statusEl.textContent="🎉 ZMAGA! Prišel si do cilja!";
+    statusEl.textContent="ZMAGA! Prišel si do cilja!";
   }
 
   draw();
