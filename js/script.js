@@ -1779,7 +1779,7 @@
   ctx.moveTo(402,2);
   ctx.lineTo(402,402);
   ctx.fill();
-  ctx.strokeStyle="pink";
+  ctx.strokeStyle="white";
   ctx.stroke();
   }
 
