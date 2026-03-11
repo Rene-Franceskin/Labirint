@@ -45,3 +45,4 @@ Cilj igre je priti do **rumenega kvadrata**, ki predstavlja **izhod iz labirinta
 ---
 
 # 📸 Posnetek zaslona
+<img width="854" height="898" alt="image" src="https://github.com/user-attachments/assets/069f2ab6-2256-43b0-b7b3-2c644399a0f6" />
