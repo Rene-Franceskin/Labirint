@@ -1,48 +1,52 @@
-# <h1 align="center">Block Blast Maze – Igra labirinta</h1>
+# 🧩 Block Blast Maze – RENE Edition
 
-Ta projekt predstavlja preprosto **spletno igro labirinta**, razvito s pomočjo **HTML**, **CSS** in **JavaScript**.  
-Igra uporablja **HTML5 Canvas API** za risanje labirinta in igralca.
+## 📌 Opis projekta
+Ta projekt predstavlja interaktivni labirint, izdelan s pomočjo **HTML, CSS in JavaScript (Canvas)**.
 
-Cilj igre je priti od začetne točke do **izhoda iz labirinta**, pri čemer se igralec premika po mreži in se mora izogibati zidovom.
+Igralec vodi kvadrat skozi labirint do cilja. Posebnost igre je, da mora igralec **štirikrat uspešno prečkati labirint**, pri čemer vsak kvadratek predstavlja eno črko imena:
 
-Ko igralec uspešno pride do cilja, se prikaže estetsko obvestilo z uporabo knjižnice **SweetAlert2**.
-
----
-
-# 🚀 Funkcionalnosti
-
-- Interaktivna **labirint igra v brskalniku**
-- Risanje labirinta z uporabo **Canvas API**
-- Premikanje igralca po labirintu
-- Preprečevanje prehoda skozi zidove
-- Gumb za **prikaz rešitve**
-- Gumb za **ponastavitev igre**
-- Informacijski popup o projektu
-- **SweetAlert2 obvestilo ob zmagi**
-- Enostaven in odziven uporabniški vmesnik
+👉 **R E N E**
 
 ---
 
-# 🎮 Upravljanje
-
-Igralca lahko premikaš z naslednjimi tipkami:
-
-- ⬆️⬇️⬅️➡️ **Puščice**
-- ⌨️ **W A S D**
-
-Cilj igre je priti do **rumenega kvadrata**, ki predstavlja **izhod iz labirinta**.
-
----
-
-# 🛠️ Uporabljene tehnologije
-
-- **HTML5** – struktura spletne strani  
-- **CSS3** – oblikovanje uporabniškega vmesnika  
-- **JavaScript (ES6)** – logika igre  
-- **Canvas API** – risanje labirinta in igralca  
-- **SweetAlert2** – moderna popup obvestila
+## 🎮 Kako deluje
+- Na začetku so nad labirintom prikazani 4 kvadratki (R, E, N, E)
+- Igralec vodi **trenutno aktivni kvadratek** skozi labirint
+- Ko pride do cilja:
+  - se kvadratek shrani spodaj
+  - naslednji kvadratek postane aktiven
+- Ko pripelje vse 4 kvadratke do cilja:
+  - se izpiše uspeh
+  - sestavi se ime **RENE**
 
 ---
 
-# 📸 Posnetek zaslona
-<img width="854" height="898" alt="image" src="https://github.com/user-attachments/assets/069f2ab6-2256-43b0-b7b3-2c644399a0f6" />
+## 🎯 Upravljanje
+Premikanje:
+- ⬆️⬇️⬅️➡️ puščice  
+- ali  
+- **W A S D**
+
+---
+
+## 🧠 Funkcionalnosti
+- 🎮 premikanje po labirintu z detekcijo trkov
+- 🧩 generiranje labirinta preko canvas risanja
+- 🔍 prikaz rešitve (Solution gumb)
+- 🔄 reset igre (Reset gumb)
+- ℹ️ info gumb z informacijami o projektu
+- 🔤 sistem več igralnih kvadratkov (RENE)
+- 📦 prikaz:
+  - zgoraj → čakajoči kvadratki
+  - spodaj → uspešno zaključeni
+
+---
+
+## 🛠️ Tehnologije
+- HTML5 (Canvas)
+- CSS3
+- JavaScript (Vanilla)
+
+---
+
+## 📸 Posnetek zaslona
