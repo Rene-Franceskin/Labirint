@@ -1,4 +1,4 @@
-# 🧩 Block Blast Maze – RENE Edition
+# <h1 align="center">🧩 Block Blast Maze</h1>
 
 ## 📌 Opis projekta
 Ta projekt predstavlja interaktivni labirint, izdelan s pomočjo **HTML, CSS in JavaScript (Canvas)**.
@@ -50,3 +50,4 @@ Premikanje:
 ---
 
 ## 📸 Posnetek zaslona
+<img width="807" height="917" alt="image" src="https://github.com/user-attachments/assets/dcdfc6b6-c705-4f9e-9a57-9429687be924" />
