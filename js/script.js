@@ -751,7 +751,7 @@ function renderLetterContainers() {
 if (infoBtn) {
   infoBtn.onclick = () => Swal.fire({
     title: "Block Blast Maze",
-    html: `<b>Izdelal:</b> Rene Frančeškin<br><b>Predmet:</b> Spletne aplikacije<br><br>Premik uporablja tipke <b>W A S D</b> ali <b>puščice</b>.`,
+    html: `<b>Izdelal:</b> Rene Frančeškin<br><b>Predmet:</b> Spletne aplikacije.<br>`,
     icon: "info",
     confirmButtonText: "Zapri"
   });
